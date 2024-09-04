@@ -1,0 +1,16 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 110;
+    padding: 0;
+    background-color: #ECF6FD;
+}
+
+.boxContainer{
+    width: 90%;
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255);;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rbga(0,0,0,0.065);
+    overflow-x: auto;
+}
