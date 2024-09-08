@@ -1,16 +1,24 @@
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 110;
+    margin: 0;
     padding: 0;
     background-color: #ECF6FD;
 }
 
+.App{
+    display: flex;
+}
+
+.sidebar{
+    flex: 0 0 80px;
+    height: 100vh;
+    background-color: #2D3A4B;
+    padding-top: 20px;
+}
+
 .boxContainer{
-    width: 90%;
-    margin: 50px auto;
+    flex: 1;
     background-color: rgb(255, 255, 255);;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 8px rbga(0,0,0,0.065);
-    overflow-x: auto;
+    padding: 10px 20px;
+    overflow: auto;
 }

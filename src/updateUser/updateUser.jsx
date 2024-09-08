@@ -88,6 +88,10 @@ export const UpdateUser = () => {
           <label htmlFor="address">Address</label>
           <input type="text" name="address_1" className="form-control" id="address" placeholder="Enter address" value={user.address_1} onChange={inputHandler}/>
         </div>
+        <div className="form-group">
+          <label htmlFor="api-key">Api Key</label>
+          <input type="text" className="form-control" id="api-key" placeholder="Api Key" value={user.api_key} disabled/>
+        </div>
         <button type="submit" className="btn btn-primary w-100" >Submit</button>
       </form>
     </div>
